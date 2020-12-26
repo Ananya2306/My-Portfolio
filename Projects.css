@@ -1,0 +1,94 @@
+body{
+   
+    background-image: linear-gradient(rgb(141, 255, 95) 30%,#7dfac0 70%);
+}
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box; 
+}
+header{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(to top,rgb(0, 255, 98) 60%,#03ff81 40%) ;
+}
+.navSec{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(to top,rgb(103, 255, 2) 30%,#00ff88 70%) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 17px;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 4, 255);
+    text-decoration: underline;
+}
+.logo{
+    width: 40%;
+    background-image: linear-gradient(#0022ff 30%,#a39df5 70%); 
+    padding-left: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo h1{
+    font-family: 'Langar', cursive;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+.games img{
+    margin: 40px;
+    padding: 0px;
+box-shadow: 20px 20px 20px rgb(112, 255, 176), 0 6px 6px rgb(112, 255, 167);
+ 
+}
+@keyframes move {
+    from{
+       padding-left :0px;
+    }
+    to{
+        padding-left: 300px;
+    }
+}
+.info-pro{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+h2{
+    text-shadow:  1px 10px 3px rgba(255, 0, 0, 0.36);
+}
+.game{
+    border: solid;
+    background-image: linear-gradient(rgb(103, 255, 2) 30%,#00ff88 70%);
+    border-radius: 28% 26% 26% 32% / 36% 35% 41% 33% ;
+}

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box; 
+}
+header{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(red,blue);
+   
+}
+.navSec{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(to bottom,rgb(255, 0, 0) ,#04d5ff , #2f00ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav {
+    width: 60%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 17px;
+}/*
+nav a:first-child{
+    color: rgb(111, 0, 255);
+}*/
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: forestgreen;
+    text-decoration: underline;
+}
+.logo{
+    width: 40%;
+    background-image: linear-gradient(#8d98e3 40%,#854fed 60%); 
+    padding-left: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo h1{
+    font-family: 'Langar', cursive;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes move {
+    from{
+       padding-left :0px;
+    }
+    to{
+        padding-left: 300px;
+    }
+}
+
+body{
+    background-image: linear-gradient(to top,rgb(255, 0, 0),cyan ,rgb(4, 0, 255));
+}
+header img{
+    border: 2px solid;
+    border-radius: 90px;
+   
+}
